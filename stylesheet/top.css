@@ -67,12 +67,13 @@ p{
   font-size: 16px;
   color: #fff;
   background-color: #eb6100;
+  border: none;
   border-radius: 50px;
-  border: none
 }
 
 .button:hover{
-  color: #fff;
-  background: #f56500;
+  color: #eb6100;
+  background: #fff;
+  border-color: #eb6100;
   border-radius: 50px;
 }
