@@ -12,7 +12,8 @@ a{
   text-decoration: none; /*リンク下線無効化*/
 }
 
-p{
+/* site_contentsクラス内文字設定 */
+.site_contents p{
   margin: 3px 0;
   color: dimgray;
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -66,14 +67,28 @@ p{
   padding: 10px 50px;
   font-size: 16px;
   color: #fff;
-  background-color: #eb6100;
+  background-color: #80c342;
   border: none;
   border-radius: 50px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 50%);
 }
 
 .button:hover{
-  color: #eb6100;
-  background: #fff;
-  border-color: #eb6100;
+  color: #fff;
+  box-shadow: none;
+  transform: scale(0.99, 0.99) translateY(2px);
   border-radius: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 20px; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px 0;
+  background-color: orange;
+}
+
+footer p{
+  color: #fff;
 }
